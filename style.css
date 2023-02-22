@@ -1,0 +1,166 @@
+*{
+	margin:0;
+    padding:0;
+} 
+
+html{
+    margin:0;
+}
+.container{
+    flex: auto;
+}
+
+ body{
+	  background-image:linear-gradient(rgba(255, 6, 6, 0.76),rgba(19, 19, 212, 0.8)), url("background.jpeg");
+	  height: 100vh;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+ 
+     .menu{
+           position: relative;
+	       display: inline-block;
+          }
+
+     a{
+          display: inline-block;
+           border: 1px ;
+         border-radius: 30px;
+           cursor: pointer;
+           text-align: center;
+           text-decoration: none;
+           width: 60px;
+           background-color: #f6ff17;
+		  font-family:Lucida Sans Unicode;
+		  font-size:16px;
+}
+
+       
+#drop{
+           display: block;
+           cursor: pointer;
+           margin: 2px;
+           text-align: center;
+           border-radius: 15px;
+           width: 100px;
+           background-color: #f7ab00;
+		  font-family:Lucida Sans Unicode;
+		  font-size:20px;
+	   }
+	    
+#submenu{
+			background-color: gold;
+			color:midnightblue;
+			display: none;
+			position: absolute;
+			min-width: 100px;
+		}
+		 
+#submenu a{
+			  color:black;
+              display: inline-block;
+              border-radius: 2px;
+              width:100%;
+              border: 1px solid red;
+		  }
+
+p1{
+            display: inline-block;
+            border-radius: 2px;
+		   font-style:bold;
+		   font-size:35px;
+		   text-color: darkmagenta;
+            text-align: center;
+		   color:white;
+		   background-color:midnightblue;
+            width: 100%;
+		   font-family:Times New Roman;
+		   }
+
+#border{
+    display: inline-block;
+    border: 1px solid #00ebff;
+    width:20%;
+    margin-left: 37%;
+}
+
+         [href="https://mankotia412vishal.blogspot.com"]{
+             display:block;
+             border-radius: 5px;
+             width:50%;
+             text-align: center;
+             margin-left: 22%;
+             
+             background-color:#f5ff00;
+			 color:#00006d;
+			 font-weight: bold;
+			 font-size: 25px;
+             text-decoration: none;
+		}
+
+[href="https://mankotia412vishal.blogspot.com"]:hover{
+    color:#1111e0;
+}
+
+
+		p.second{
+        display: block;
+        border-radius: 20px;
+        background-color: darkorange;
+        width: 50%;
+        margin-left: 22%;
+        text-align: center;
+		font-family:Consolas;
+		font-style:oblique;
+		font-size:25px;
+        font-weight: bolder;
+		color:black;
+		}
+
+  #fname, #sname{
+      color: white;
+      display: inline-block;
+      padding: 7px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+  }
+#fname{
+    padding-right: 2%;
+    padding-left: 1%;
+}
+  
+  #firstb, #secondb, #toggle,#chain, #fadeto, #slideup, #slidedown, #square,#squarestop,#text,#html,#val, #attr, #val1
+		,#stext,#shtml,#sval, #sattr, #sval1,#rval,#rval1,#empty{
+			
+		font-family:Lucida Sans Unicode;
+		font-weight:bolder;
+		margin-right:5px;
+        margin-bottom: 5px;
+		padding-left:30px;
+		padding-right:30px;
+		font-stretch:0px;
+		font-size:15px;
+		}
+
+		#animation{
+			background-color: #ffc400;
+            display: block;
+            border: 1px solid yellow;
+            border-radius: 10px;
+			height: 50px;
+			width: 100px;
+            color:black;
+            font-weight: bold;
+            text-align: center;
+            font-size: 10px;
+			position: absolute;
+            margin: 20px;
+            padding-top: 10px;
+        
+
+		}
+
+		
+		
+	
