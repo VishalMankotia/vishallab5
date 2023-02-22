@@ -75,7 +75,7 @@ $(document).ready(function() {
     });
 
     $("#shtml").click(function () {
-         $("p.second").html("<p>Hello World</p>");
+         $("p.second").html("<p>Mankotia412vishal</p>");
     });
 
     $("#sattr").click(function () {
@@ -85,11 +85,11 @@ $(document).ready(function() {
     });
 
     $("#sval").click(function () {
-        $("#ename").val("Faisal");
+        $("#ename").val("Mankotia");
     });
 
     $("#sval1").click(function () {
-        $("#esname").val("Ansari");
+        $("#esname").val("Vishal");
     });
 
     $("#rval").click(function () {
